@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
+import BestPlayers from "../components/BestPlayers";
+import Standings from "../components/Standings";
 
 const Container = styled.div`
   padding: 2rem;
@@ -29,12 +31,13 @@ export default function Home() {
       {data.competitions.map((competition) => (
         <div key={competition.id}>
           <SectionTitle>{competition.name}</SectionTitle>
-
           {competition.events.map((event) => (
             <div key={event.id}>
               <SectionTitle style={{ fontSize: "1.5rem" }}>{event.name}</SectionTitle>
             </div>
           ))}
+          <BestPlayers/>
+          <Standings eventId="winter2026"/>
         </div>
       ))}
     </Container>
