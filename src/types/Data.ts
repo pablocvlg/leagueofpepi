@@ -11,6 +11,7 @@ export interface Team {
   abbrev: string;
   logo: string;
   players: Player[];
+  drafts: number[]
 }
 
 export interface MatchScore {

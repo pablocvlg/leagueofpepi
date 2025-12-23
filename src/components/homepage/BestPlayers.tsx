@@ -5,13 +5,13 @@ import type { Player, Team } from "../../types/Data";
 const Container = styled.div`
   background: linear-gradient(135deg, #4e745eff 0%, #11251aff 100%);
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.1rem;
 `;
 
 const Title = styled.h3`
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0 0 1.5rem 0;
+  margin: 0.3rem 0 1.5rem 0;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
@@ -19,16 +19,16 @@ const Title = styled.h3`
 const PlayersList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.7rem;
 `;
 
 const PlayerCard = styled.div`
   background: #0a0a0a;
   border-radius: 8px;
-  padding: 1.25rem 1.5rem;
+  padding: 0.7rem 1rem;
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
   transition: all 0.2s ease;
 
   &:hover {
@@ -38,11 +38,9 @@ const PlayerCard = styled.div`
 `;
 
 const PlayerImage = styled.img`
-  width: 50px;
-  height: 50px;
-  border-radius: 40%;
+  width: 2.5rem;
+  height: 2.5rem;
   object-fit: cover;
-  border: 4px solid #333;
 `;
 
 const PlayerInfo = styled.div`

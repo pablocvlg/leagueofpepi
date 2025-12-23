@@ -207,6 +207,7 @@ export default function Standings({ eventId }: { eventId: string }) {
 
   // Compute team rating: average of ALL values inside player.ratings arrays
   const teamRating: Record<string, number> = {};
+  
   event.teams.forEach((team: any) => {
     const players = team.players ?? [];
     const allRatings: number[] = [];
@@ -219,12 +220,25 @@ export default function Standings({ eventId }: { eventId: string }) {
       });
     });
 
-    if (allRatings.length === 0) {
-      teamRating[team.id] = 0;
-    } else {
-      const sum = allRatings.reduce((a, b) => a + b, 0);
-      teamRating[team.id] = Number((sum / allRatings.length).toFixed(2));
+    // Base rating
+    const baseRating =
+      allRatings.length === 0
+        ? 0
+        : allRatings.reduce((a, b) => a + b, 0) / allRatings.length;
+
+    // Draft adjustment (-0.5 .. 0.5)
+    const drafts = Array.isArray(team.drafts) ? team.drafts : [];
+    let draftAdjustment = 0;
+
+    if (drafts.length > 0) {
+      const avgDraft =
+        drafts.reduce((a: number, b: number) => a + b, 0) / drafts.length;
+
+      // Drafts 0..3 -> -0.5..0.5
+      draftAdjustment = -0.5 + (avgDraft / 3);
     }
+
+    teamRating[team.id] = Number((baseRating + draftAdjustment).toFixed(2));
   });
 
   // Sort teams by number of wins (descending)

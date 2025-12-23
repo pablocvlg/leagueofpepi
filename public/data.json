@@ -6,7 +6,7 @@
       "events": [
         {
           "id": "winter2026",
-          "name": "Winter 2026",
+          "name": "Versus (Winter) 2026",
           "teams": [
             {
               "id": "t01",
@@ -14,12 +14,13 @@
               "abbrev": "FNC",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1631819669150_fnc-2021-worlds.png",
               "players": [
-                { "id": "p0101", "name": "Oscarinin", "role": "Top", "ratings": [5.0] },
-                { "id": "p0102", "name": "Razork", "role": "Jungle", "ratings": [7] },
-                { "id": "p0103", "name": "???", "role": "Mid", "ratings": [0] },
-                { "id": "p0104", "name": "Upset", "role": "Bot", "ratings": [6] },
-                { "id": "p0105", "name": "???", "role": "Support", "ratings": [] }
-              ]
+                { "id": "p0101", "name": "Oscarinin", "role": "Top", "ratings": [5] },
+                { "id": "p0102", "name": "Razork", "role": "Jungle", "ratings": [8] },
+                { "id": "p0103", "name": "Vladi", "role": "Mid", "ratings": [7] },
+                { "id": "p0104", "name": "Upset", "role": "Bot", "ratings": [7] },
+                { "id": "p0105", "name": "Lospa", "role": "Support", "ratings": [8] }
+              ],
+              "drafts": [2, 3]
             },
             {
               "id": "t02",
@@ -27,11 +28,11 @@
               "abbrev": "G2",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FG2-FullonDark.png",
               "players": [
-                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [7] },
-                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [8] },
+                { "id": "p0201", "name": "BrokenBlade", "role": "Top", "ratings": [8] },
+                { "id": "p0202", "name": "SkewMond", "role": "Jungle", "ratings": [9] },
                 { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [8] },
-                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [8] },
-                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [7] }
+                { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9] },
+                { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8] }
               ]
             },
             {
@@ -40,11 +41,11 @@
               "abbrev": "GX",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704790322129_GX.png",
               "players": [
-                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [6] },
+                { "id": "p0301", "name": "Lot", "role": "Top", "ratings": [4] },
                 { "id": "p0302", "name": "ISMA", "role": "Jungle", "ratings": [6] },
-                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [7] },
-                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [7] },
-                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [8] }
+                { "id": "p0303", "name": "Jackies", "role": "Mid", "ratings": [6] },
+                { "id": "p0304", "name": "Noah", "role": "Bot", "ratings": [8] },
+                { "id": "p0305", "name": "Jun", "role": "Support", "ratings": [9] }
               ]
             },
             {
@@ -53,11 +54,11 @@
               "abbrev": "KC",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704714951336_KC.png",
               "players": [
-                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [8] },
-                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [7] },
-                { "id": "p0403", "name": "Vladi", "role": "Mid", "ratings": [6] },
-                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [7] },
-                { "id": "p0405", "name": "Nisqy?", "role": "Support", "ratings": [] }
+                { "id": "p0401", "name": "Canna", "role": "Top", "ratings": [10] },
+                { "id": "p0402", "name": "Yike", "role": "Jungle", "ratings": [8] },
+                { "id": "p0403", "name": "???", "role": "Mid", "ratings": [] },
+                { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8] },
+                { "id": "p0405", "name": "???", "role": "Support", "ratings": [] }
               ]
             },
             {
@@ -66,11 +67,11 @@
               "abbrev": "KCB",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FLFL-KC-logo.png",
               "players": [
-                { "id": "p0501", "name": "Maynter", "role": "Top", "ratings": [] },
-                { "id": "p0502", "name": "Yukino", "role": "Jungle", "ratings": [] },
-                { "id": "p0503", "name": "Kamiloo", "role": "Mid", "ratings": [] },
+                { "id": "p0501", "name": "???", "role": "Top", "ratings": [] },
+                { "id": "p0502", "name": "Yukino", "role": "Jungle", "ratings": [6] },
+                { "id": "p0503", "name": "Kamiloo", "role": "Mid", "ratings": [3] },
                 { "id": "p0504", "name": "???", "role": "Bot", "ratings": [] },
-                { "id": "p0505", "name": "Prime", "role": "Support", "ratings": [] }
+                { "id": "p0505", "name": "Prime", "role": "Support", "ratings": [4] }
               ]
             },
             {
@@ -80,9 +81,9 @@
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1736206905390_LR1.png",
               "players": [
                 { "id": "p0601", "name": "Baus", "role": "Top", "ratings": [6] },
-                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [7] },
-                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [8] },
-                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [6] },
+                { "id": "p0602", "name": "Velja", "role": "Jungle", "ratings": [6] },
+                { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [7] },
+                { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [5] },
                 { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [8] }
               ]
             },
@@ -92,10 +93,10 @@
               "abbrev": "MKOI",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1734012609283_MKOI_FullColor_Blue.png",
               "players": [
-                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [6.5] },
-                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [7] },
-                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [6.5] },
-                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [7] },
+                { "id": "p0701", "name": "Myrwn", "role": "Top", "ratings": [7] },
+                { "id": "p0702", "name": "Elyoya", "role": "Jungle", "ratings": [8] },
+                { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [7] },
+                { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [8] },
                 { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [8] }
               ]
             },
@@ -105,11 +106,11 @@
               "abbrev": "NAVI",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1752746833620_NAVI_FullColor.png",
               "players": [
-                { "id": "p0801", "name": "???", "role": "Top", "ratings": [] },
-                { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [] },
-                { "id": "p0803", "name": "Larssen", "role": "Mid", "ratings": [4] },
-                { "id": "p0804", "name": "Hans SamD / Patrik", "role": "Bot", "ratings": [0] },
-                { "id": "p0805", "name": "Execute / Malrang", "role": "Support", "ratings": [4] }
+                { "id": "p0801", "name": "Maynter", "role": "Top", "ratings": [5] },
+                { "id": "p0802", "name": "Rhilech", "role": "Jungle", "ratings": [6] },
+                { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [8] },
+                { "id": "p0804", "name": "SamD", "role": "Bot", "ratings": [5] },
+                { "id": "p0805", "name": "Parus", "role": "Support", "ratings": [6] }
               ]
             },
             {
@@ -118,24 +119,24 @@
               "abbrev": "SK",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643979272144_SK_Monochrome.png",
               "players": [
-                { "id": "p0901", "name": "???", "role": "Top", "ratings": [] },
-                { "id": "p0902", "name": "Skeanz", "role": "Jungle", "ratings": [] },
-                { "id": "p0903", "name": "???", "role": "Mid", "ratings": [] },
-                { "id": "p0904", "name": "???", "role": "Bot", "ratings": [] },
-                { "id": "p0905", "name": "???", "role": "Support", "ratings": [] }
+                { "id": "p0901", "name": "Wunder", "role": "Top", "ratings": [3] },
+                { "id": "p0902", "name": "Skeanz", "role": "Jungle", "ratings": [3] },
+                { "id": "p0903", "name": "LIDER", "role": "Mid", "ratings": [5] },
+                { "id": "p0904", "name": "Jopa", "role": "Bot", "ratings": [6] },
+                { "id": "p0905", "name": "Mikyx", "role": "Support", "ratings": [7] }
               ]
             },
             {
               "id": "t10",
-              "name": "Team BDS",
-              "abbrev": "BDS",
-              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1641292031788_Team_BDSlogo_square.png",
+              "name": "Shifters",
+              "abbrev": "SHFT",
+              "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1765897071435_600px-Shifters_allmode.png",
               "players": [
-                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [] },
-                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [] },
-                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [7] },
-                { "id": "p1004", "name": "???", "role": "Bot", "ratings": [] },
-                { "id": "p1005", "name": "???", "role": "Support", "ratings": [] }
+                { "id": "p1001", "name": "Rooster", "role": "Top", "ratings": [6] },
+                { "id": "p1002", "name": "Boukada", "role": "Jungle", "ratings": [4] },
+                { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [6] },
+                { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [7] },
+                { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [6] }
               ]
             },
             {
@@ -144,11 +145,11 @@
               "abbrev": "TH",
               "logo": "https://am-a.akamaihd.net/image?resize=200:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1672933861879_Heretics-Full-Color.png",
               "players": [
-                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [] },
-                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [6] },
-                { "id": "p1103", "name": "???", "role": "Mid", "ratings": [4] },
-                { "id": "p1104", "name": "???", "role": "Bot", "ratings": [6] },
-                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [5] }
+                { "id": "p1101", "name": "Tracyn", "role": "Top", "ratings": [5] },
+                { "id": "p1102", "name": "Sheo", "role": "Jungle", "ratings": [7] },
+                { "id": "p1103", "name": "???", "role": "Mid", "ratings": [] },
+                { "id": "p1104", "name": "???", "role": "Bot", "ratings": [] },
+                { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4] }
               ]
             },
             {
@@ -159,9 +160,9 @@
               "players": [
                 { "id": "p1201", "name": "Naak Nako", "role": "Top", "ratings": [7] },
                 { "id": "p1202", "name": "Lyncas", "role": "Jungle", "ratings": [7] },
-                { "id": "p1203", "name": "???", "role": "Mid", "ratings": [7] },
+                { "id": "p1203", "name": "Humanoid", "role": "Mid", "ratings": [7] },
                 { "id": "p1204", "name": "Carzzy", "role": "Bot", "ratings": [7] },
-                { "id": "p1205", "name": "Fleshy", "role": "Support", "ratings": [] }
+                { "id": "p1205", "name": "Fleshy", "role": "Support", "ratings": [6] }
               ]
             }
           ],
