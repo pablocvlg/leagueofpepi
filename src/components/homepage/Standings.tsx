@@ -1,5 +1,20 @@
 import styled from "styled-components";
 import { useData } from "../../hooks/useData";
+import { useState } from "react";
+
+type SortKey = "wins" | "rating";
+type SortDir = "asc" | "desc";
+
+const SortIndicator = ({
+  active,
+  dir,
+}: {
+  active: boolean;
+  dir: SortDir;
+}) => {
+  if (!active) return null;
+  return <span>{dir === "asc" ? " ↑" : " ↓"}</span>;
+};
 
 const Container = styled.div`
   padding: 1rem;
@@ -55,6 +70,11 @@ const HeaderRight = styled.div`
 
 const HeaderRating = styled.div`
   width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  white-space: nowrap;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 600;
@@ -64,6 +84,11 @@ const HeaderRating = styled.div`
 
 const HeaderScore = styled.div`
   width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  white-space: nowrap;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 600;
@@ -169,6 +194,18 @@ const TeamMeta = styled.div`
 export default function Standings({ eventId }: { eventId: string }) {
   const { data, loading, error } = useData();
 
+  const [sortKey, setSortKey] = useState<SortKey>("wins");
+  const [sortDir, setSortDir] = useState<SortDir>("desc");
+
+  const handleSort = (key: SortKey) => {
+    if (sortKey === key) {
+      setSortDir(prev => (prev === "asc" ? "desc" : "asc"));
+    } else {
+      setSortKey(key);
+      setSortDir("desc");
+    }
+  };
+
   if (loading) return <Container>Loading...</Container>;
   if (error) return <Container>{error}</Container>;
   if (!data) return <Container>No data available</Container>;
@@ -242,9 +279,22 @@ export default function Standings({ eventId }: { eventId: string }) {
   });
 
   // Sort teams by number of wins (descending)
-  const sortedTeams = [...event.teams].sort(
-    (a: any, b: any) => teamRecord[b.id].wins - teamRecord[a.id].wins
-  );
+  const sortedTeams = [...event.teams].sort((a: any, b: any) => {
+    let aValue = 0;
+    let bValue = 0;
+
+    if (sortKey === "wins") {
+      aValue = teamRecord[a.id].wins;
+      bValue = teamRecord[b.id].wins;
+    }
+
+    if (sortKey === "rating") {
+      aValue = teamRating[a.id] ?? 0;
+      bValue = teamRating[b.id] ?? 0;
+    }
+
+    return sortDir === "asc" ? aValue - bValue : bValue - aValue;
+  });
 
   // Compute ranking positions with ties (1,1,3,...)
   let lastWins = Number.NEGATIVE_INFINITY;
@@ -276,8 +326,26 @@ export default function Standings({ eventId }: { eventId: string }) {
         <HeaderContent>
           <HeaderLeft>Team</HeaderLeft>
           <HeaderRight>
-            <HeaderRating>Rating</HeaderRating>
-            <HeaderScore>Score</HeaderScore>
+            <HeaderRating
+              onClick={() => handleSort("rating")}
+              style={{ cursor: "pointer" }}
+            >
+              Rating
+              <SortIndicator
+                active={sortKey === "rating"}
+                dir={sortDir}
+              />
+            </HeaderRating>
+            <HeaderScore
+              onClick={() => handleSort("wins")}
+              style={{ cursor: "pointer" }}
+            >
+              Score
+              <SortIndicator
+                active={sortKey === "wins"}
+                dir={sortDir}
+              />
+            </HeaderScore>
           </HeaderRight>
         </HeaderContent>
       </HeaderRow>

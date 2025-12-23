@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { useData } from "../hooks/useData";
 import PlayerCard from "../components/PlayerCard";
-import type { Player } from "../types/Data";
 
 const Container = styled.div`
   padding: 2rem;
@@ -32,19 +31,11 @@ export default function Players() {
   if (error) return <Container>{error}</Container>;
   if (!data) return <Container>No data available</Container>;
 
-  const players: Player[] = data.competitions.flatMap((comp) =>
-    comp.events.flatMap((event) =>
-      event.teams.flatMap((team) => team.players)
-    )
-  );
-
   return (
     <Container>
       <SectionTitle>Players</SectionTitle>
       <CardsGrid>
-        {players.map((player) => (
-          <PlayerCard key={player.id} player={player} />
-        ))}
+          <PlayerCard />
       </CardsGrid>
     </Container>
   );

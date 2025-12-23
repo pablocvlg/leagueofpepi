@@ -16,6 +16,8 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-width: 15rem;
+  width: 100%;
 `;
 
 const Teams = styled.h2`
@@ -25,6 +27,7 @@ const Teams = styled.h2`
 
 const DateText = styled.span`
   font-size: 0.9rem;
+  margin-top: 0.5rem;
   color: #aaa;
 `;
 

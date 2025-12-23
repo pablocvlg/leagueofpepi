@@ -20,7 +20,7 @@
                 { "id": "p0104", "name": "Upset", "role": "Bot", "ratings": [7] },
                 { "id": "p0105", "name": "Lospa", "role": "Support", "ratings": [8] }
               ],
-              "drafts": [2, 3]
+              "drafts": []
             },
             {
               "id": "t02",
@@ -33,7 +33,8 @@
                 { "id": "p0203", "name": "Caps", "role": "Mid", "ratings": [8] },
                 { "id": "p0204", "name": "Hans Sama", "role": "Bot", "ratings": [9] },
                 { "id": "p0205", "name": "Labrov", "role": "Support", "ratings": [8] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t03",
@@ -59,7 +60,8 @@
                 { "id": "p0403", "name": "???", "role": "Mid", "ratings": [] },
                 { "id": "p0404", "name": "Caliste", "role": "Bot", "ratings": [8] },
                 { "id": "p0405", "name": "???", "role": "Support", "ratings": [] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t05",
@@ -72,7 +74,8 @@
                 { "id": "p0503", "name": "Kamiloo", "role": "Mid", "ratings": [3] },
                 { "id": "p0504", "name": "???", "role": "Bot", "ratings": [] },
                 { "id": "p0505", "name": "Prime", "role": "Support", "ratings": [4] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t06",
@@ -85,7 +88,8 @@
                 { "id": "p0603", "name": "Nemesis", "role": "Mid", "ratings": [7] },
                 { "id": "p0604", "name": "Crownie", "role": "Bot", "ratings": [5] },
                 { "id": "p0605", "name": "Rekkles", "role": "Support", "ratings": [8] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t07",
@@ -98,7 +102,8 @@
                 { "id": "p0703", "name": "Jojopyun", "role": "Mid", "ratings": [7] },
                 { "id": "p0704", "name": "Supa", "role": "Bot", "ratings": [8] },
                 { "id": "p0705", "name": "Alvaro", "role": "Support", "ratings": [8] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t08",
@@ -111,7 +116,8 @@
                 { "id": "p0803", "name": "Poby", "role": "Mid", "ratings": [8] },
                 { "id": "p0804", "name": "SamD", "role": "Bot", "ratings": [5] },
                 { "id": "p0805", "name": "Parus", "role": "Support", "ratings": [6] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t09",
@@ -124,7 +130,8 @@
                 { "id": "p0903", "name": "LIDER", "role": "Mid", "ratings": [5] },
                 { "id": "p0904", "name": "Jopa", "role": "Bot", "ratings": [6] },
                 { "id": "p0905", "name": "Mikyx", "role": "Support", "ratings": [7] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t10",
@@ -137,7 +144,8 @@
                 { "id": "p1003", "name": "nuc", "role": "Mid", "ratings": [6] },
                 { "id": "p1004", "name": "Paduck", "role": "Bot", "ratings": [7] },
                 { "id": "p1005", "name": "Trymbi", "role": "Support", "ratings": [6] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t11",
@@ -150,7 +158,8 @@
                 { "id": "p1103", "name": "???", "role": "Mid", "ratings": [] },
                 { "id": "p1104", "name": "???", "role": "Bot", "ratings": [] },
                 { "id": "p1105", "name": "Stend", "role": "Support", "ratings": [4] }
-              ]
+              ],
+              "drafts": []
             },
             {
               "id": "t12",
@@ -163,24 +172,61 @@
                 { "id": "p1203", "name": "Humanoid", "role": "Mid", "ratings": [7] },
                 { "id": "p1204", "name": "Carzzy", "role": "Bot", "ratings": [7] },
                 { "id": "p1205", "name": "Fleshy", "role": "Support", "ratings": [6] }
-              ]
+              ],
+              "drafts": []
             }
           ],
           "matches": [
             {
               "id": "m01",
-              "date": "2025-12-20T18:00:00Z",
-              "teamA": "t01",
-              "teamB": "t02",
+              "date": "2026-01-17T17:00:00Z",
+              "teamA": "t06",
+              "teamB": "t01",
               "status": "upcoming",
               "stage": "Regular Season",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m02",
-              "date": "2025-12-21T20:00:00Z",
-              "teamA": "t01",
+              "date": "2026-01-17T17:45:00Z",
+              "teamA": "t10",
               "teamB": "t03",
+              "status": "upcoming",
+              "stage": "Regular Season",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m03",
+              "date": "2026-01-17T18:30:00Z",
+              "teamA": "t11",
+              "teamB": "t08",
+              "status": "upcoming",
+              "stage": "Regular Season",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m04",
+              "date": "2026-01-17T19:15:00Z",
+              "teamA": "t12",
+              "teamB": "t09",
+              "status": "upcoming",
+              "stage": "Regular Season",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m05",
+              "date": "2026-01-17T20:00:00Z",
+              "teamA": "t05",
+              "teamB": "t04",
+              "status": "upcoming",
+              "stage": "Regular Season",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m06",
+              "date": "2026-01-17T20:45:00Z",
+              "teamA": "t07",
+              "teamB": "t02",
               "status": "upcoming",
               "stage": "Regular Season",
               "score": { "teamA":0,"teamB":0 }
