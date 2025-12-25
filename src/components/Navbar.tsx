@@ -4,9 +4,9 @@ import { NavLink as RouterNavLink } from "react-router-dom";
 const Nav = styled.nav`
   display: flex;
   justify-content: flex-start;
-  padding: 0.5rem 2rem;
+  padding: 0 2rem;
   background-color: #1a1a1aff;
-  align-items: center;
+  align-items: stretch;
   box-shadow: 0 2px 6px rgba(21, 83, 17, 0.75);
   gap: 1.5rem;
 `;
@@ -20,8 +20,9 @@ const NavLink = styled(RouterNavLink)`
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   letter-spacing: 0.15em;
   font-size: 14px;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
+  padding: 0.7rem 0.8rem;
+  display: flex;
+  align-items: center;
   
   &:hover {
     color: #c2890f !important;
@@ -29,7 +30,7 @@ const NavLink = styled(RouterNavLink)`
   
   &.active {
     background-color: #2a2a2aff;
-    color: #4e745eff;
+    color: #13bb91ff;
   }
 `;
 
