@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { useData } from "../../hooks/useData";
 import { useState } from "react";
+import { media } from "../../styles/breakpoints";
 
 type SortKey = "wins" | "rating";
 type SortDir = "asc" | "desc";
@@ -23,8 +24,12 @@ const Container = styled.div`
   color: #fff;
   max-width: 1000px;
   margin: 0 0;
-  font-family: Inter, Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue",
-    Arial;
+  font-family: Inter, Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+
+  ${media.mobile} {
+  max-width: 100%;
+  padding: 1rem 1rem;
+  }
 `;
 
 const HeaderRow = styled.div`
@@ -35,16 +40,24 @@ const HeaderRow = styled.div`
   margin-bottom: 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  ${media.mobile} {
+  grid-template-columns: min-content 1fr;
+  gap: 50px;
+  }
 `;
 
 const HeaderRank = styled.div`
+  align-items: center;  
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
+  justify-content: center;
+
+  ${media.mobile} {
+  }
 `;
 
 const HeaderContent = styled.div`
@@ -52,6 +65,10 @@ const HeaderContent = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 14px;
+
+  ${media.mobile} {
+  padding: 0;
+  }
 `;
 
 const HeaderLeft = styled.div`
@@ -65,6 +82,12 @@ const HeaderRight = styled.div`
   display: flex;
   align-items: center;
   gap: 18px;
+
+  ${media.mobile} {
+  align-items: right;
+  display: flex;
+  gap: 10px;
+  }
 `;
 
 const HeaderRating = styled.div`
@@ -93,6 +116,11 @@ const HeaderScore = styled.div`
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
+
+  ${media.mobile} {
+  gap: 4px;
+  width: 100%;
+  }
 `;
 
 const TeamRow = styled.div`
@@ -101,6 +129,12 @@ const TeamRow = styled.div`
   gap: 12px;
   align-items: center;
   margin-bottom: 10px;
+
+  ${media.mobile} {
+  align-items: center;
+  grid-template-columns: 38px 1fr;
+  gap: 4px;
+  }
 `;
 
 const RankCol = styled.div`
@@ -110,6 +144,12 @@ const RankCol = styled.div`
   color: #ffffff;
   font-weight: 1000;
   font-size: 20px;
+
+  ${media.mobile} {
+  font-size: 15px;
+  justify-content: flex-start;
+  margin-left: 10px;
+  }
 `;
 
 const TeamCard = styled.div`
@@ -121,6 +161,12 @@ const TeamCard = styled.div`
   padding: 10px 14px;
   border-radius: 10px;
   box-shadow: 0 2px 0 rgba(0,0,0,0.6) inset;
+
+  ${media.mobile} {
+  align-items: center;
+  flex-direction: row;
+  padding: 4px 5px;
+  }
 `;
 
 const Left = styled.div`
@@ -128,17 +174,26 @@ const Left = styled.div`
   align-items: center;
   gap: 12px;
   min-width: 0;
+
+  ${media.mobile} {
+  flex: 1;
+  gap: 8px;
+  }
 `;
 
 const Logo = styled.div<{ src?: string }>`
   width: 36px;
   height: 36px;
-  border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.03);
   background-position: center;
   background-size: cover;
   flex-shrink: 0;
   display: inline-block;
+
+  ${media.mobile} {
+  width: 26px;
+  height: 26px;
+  }
 `;
 
 const TeamName = styled.a`
@@ -160,13 +215,24 @@ const Right = styled.div`
   align-items: center;
   gap: 18px;
   min-width: 0;
+
+  ${media.mobile} {
+  flex-shrink: 0;
+  gap: 12px;
+  }
 `;
 
 const TeamRating = styled.div`
   width: 56px;
   text-align: center;
   font-weight: 600;
-  color: #2fb0ff; /* blue */
+  color: #2fb0ff;
+
+  ${media.mobile} {
+  width: auto;
+  text-align: left;
+  margin-left: 0;
+  }
 `;
 
 const TeamRecord = styled.div`
@@ -174,6 +240,11 @@ const TeamRecord = styled.div`
   text-align: center;
   color: rgba(255, 255, 255, 0.85);
   font-weight: 600;
+
+  ${media.mobile} {
+    width: auto;
+    text-align: left;
+  }
 `;
 
 const TeamMeta = styled.div`

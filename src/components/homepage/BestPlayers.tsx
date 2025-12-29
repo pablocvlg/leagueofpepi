@@ -1,12 +1,17 @@
 import styled from "styled-components";
 import { useData } from "../../hooks/useData";
 import type { Player, Team } from "../../types/Data";
+import { media } from "../../styles/breakpoints";
 
 const Container = styled.div`
   background: linear-gradient(135deg, #4e745eff 0%, #11251aff 100%);
   border-radius: 12px;
   padding: 1.25rem;
   margin-top: 2rem;
+
+  ${media.mobile} {
+  width: 90%;
+  }
 `;
 
 const Title = styled.h3`
@@ -15,6 +20,10 @@ const Title = styled.h3`
   margin: 0.3rem 0 1.3rem 0;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  ${media.mobile} {
+  font-size: 1.1rem;
+  }
 `;
 
 const PlayersList = styled.div`
@@ -42,6 +51,11 @@ const PlayerImage = styled.img`
   width: 2.25rem;
   height: 2.25rem;
   object-fit: cover;
+
+  ${media.mobile} {
+  width: 1.75rem;
+  height: 1.75rem;
+  }
 `;
 
 const PlayerInfo = styled.div`
@@ -55,6 +69,11 @@ const PlayerName = styled.div`
   font-size: 1.1rem;
   font-weight: bold;
   color: white;
+
+  ${media.mobile} {
+  font-size: 1rem;
+  font-weight: 500;
+  }
 `;
 
 const PlayerDetails = styled.div`
@@ -76,6 +95,10 @@ const Rating = styled.div`
   font-weight: bold;
   color: #00a8ff;
   margin-left: auto;
+
+  ${media.mobile} {
+  font-size: 1.3rem;
+  }
 `;
 
 export default function BestPlayers() {
