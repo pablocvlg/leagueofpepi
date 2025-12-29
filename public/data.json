@@ -179,56 +179,662 @@
           "matches": [
             {
               "id": "m01",
-              "date": "2026-01-17T17:00:00Z",
+              "date": "2026-01-17T16:00:00Z",
               "teamA": "t06",
               "teamB": "t01",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "Los Ratones has no experience in LEC, and they got rolled 0-3 by KCB, which is arguably the worst LEC team.\nFnatic changed a mediocre toplaner for a newer, but still mediocre, one.\nIf Fnatic doesn't win, they are in big trouble.",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m02",
-              "date": "2026-01-17T17:45:00Z",
+              "date": "2026-01-17T16:45:00Z",
               "teamA": "t10",
               "teamB": "t03",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m03",
-              "date": "2026-01-17T18:30:00Z",
+              "date": "2026-01-17T17:30:00Z",
               "teamA": "t11",
               "teamB": "t08",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m04",
-              "date": "2026-01-17T19:15:00Z",
+              "date": "2026-01-17T18:15:00Z",
               "teamA": "t12",
               "teamB": "t09",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m05",
-              "date": "2026-01-17T20:00:00Z",
+              "date": "2026-01-17T19:00:00Z",
               "teamA": "t05",
               "teamB": "t04",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "",
               "score": { "teamA":0,"teamB":0 }
             },
             {
               "id": "m06",
-              "date": "2026-01-17T20:45:00Z",
+              "date": "2026-01-17T19:45:00Z",
               "teamA": "t07",
               "teamB": "t02",
-              "status": "upcoming",
+              "phase": "Week 1",
               "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m07",
+              "date": "2026-01-18T16:00:00Z",
+              "teamA": "t11",
+              "teamB": "t10",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m08",
+              "date": "2026-01-18T16:45:00Z",
+              "teamA": "t06",
+              "teamB": "t05",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m09",
+              "date": "2026-01-18T17:30:00Z",
+              "teamA": "t12",
+              "teamB": "t08",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m10",
+              "date": "2026-01-18T18:15:00Z",
+              "teamA": "t09",
+              "teamB": "t01",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m11",
+              "date": "2026-01-18T19:00:00Z",
+              "teamA": "t02",
+              "teamB": "t03",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m12",
+              "date": "2026-01-18T19:45:00Z",
+              "teamA": "t07",
+              "teamB": "t04",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m13",
+              "date": "2026-01-19T16:00:00Z",
+              "teamA": "t08",
+              "teamB": "t01",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m14",
+              "date": "2026-01-19T16:45:00Z",
+              "teamA": "t12",
+              "teamB": "t05",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m15",
+              "date": "2026-01-19T17:30:00Z",
+              "teamA": "t11",
+              "teamB": "t03",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m16",
+              "date": "2026-01-19T18:15:00Z",
+              "teamA": "t10",
+              "teamB": "t07",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m17",
+              "date": "2026-01-19T19:00:00Z",
+              "teamA": "t06",
+              "teamB": "t04",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m18",
+              "date": "2026-01-19T19:45:00Z",
+              "teamA": "t09",
+              "teamB": "t02",
+              "phase": "Week 1",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m19",
+              "date": "2026-01-24T16:00:00Z",
+              "teamA": "t06",
+              "teamB": "t03",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m20",
+              "date": "2026-01-24T16:45:00Z",
+              "teamA": "t08",
+              "teamB": "t05",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m21",
+              "date": "2026-01-24T17:30:00Z",
+              "teamA": "t12",
+              "teamB": "t11",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m22",
+              "date": "2026-01-24T18:15:00Z",
+              "teamA": "t10",
+              "teamB": "t02",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m23",
+              "date": "2026-01-24T19:00:00Z",
+              "teamA": "t09",
+              "teamB": "t04",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m24",
+              "date": "2026-01-24T19:45:00Z",
+              "teamA": "t07",
+              "teamB": "t01",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m25",
+              "date": "2026-01-25T16:00:00Z",
+              "teamA": "t12",
+              "teamB": "t10",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m26",
+              "date": "2026-01-25T16:45:00Z",
+              "teamA": "t09",
+              "teamB": "t08",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m27",
+              "date": "2026-01-25T17:30:00Z",
+              "teamA": "t11",
+              "teamB": "t06",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m28",
+              "date": "2026-01-25T18:15:00Z",
+              "teamA": "t07",
+              "teamB": "t05",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m29",
+              "date": "2026-01-25T19:00:00Z",
+              "teamA": "t01",
+              "teamB": "t03",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m30",
+              "date": "2026-01-25T19:45:00Z",
+              "teamA": "t04",
+              "teamB": "t02",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m31",
+              "date": "2026-01-26T16:00:00Z",
+              "teamA": "t09",
+              "teamB": "t05",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m32",
+              "date": "2026-01-26T16:45:00Z",
+              "teamA": "t10",
+              "teamB": "t06",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m33",
+              "date": "2026-01-26T17:30:00Z",
+              "teamA": "t12",
+              "teamB": "t01",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m34",
+              "date": "2026-01-26T18:15:00Z",
+              "teamA": "t11",
+              "teamB": "t02",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m35",
+              "date": "2026-01-26T19:00:00Z",
+              "teamA": "t08",
+              "teamB": "t04",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m36",
+              "date": "2026-01-26T19:45:00Z",
+              "teamA": "t07",
+              "teamB": "t03",
+              "phase": "Week 2",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m37",
+              "date": "2026-01-31T16:00:00Z",
+              "teamA": "t11",
+              "teamB": "t09",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m38",
+              "date": "2026-01-31T16:45:00Z",
+              "teamA": "t08",
+              "teamB": "t03",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m39",
+              "date": "2026-01-31T17:30:00Z",
+              "teamA": "t10",
+              "teamB": "t01",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m40",
+              "date": "2026-01-31T18:15:00Z",
+              "teamA": "t05",
+              "teamB": "t02",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m41",
+              "date": "2026-01-31T19:00:00Z",
+              "teamA": "t12",
+              "teamB": "t04",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m42",
+              "date": "2026-01-31T19:45:00Z",
+              "teamA": "t07",
+              "teamB": "t06",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m43",
+              "date": "2026-02-01T16:00:00Z",
+              "teamA": "t10",
+              "teamB": "t08",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m44",
+              "date": "2026-02-01T16:45:00Z",
+              "teamA": "t11",
+              "teamB": "t05",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m45",
+              "date": "2026-02-01T17:30:00Z",
+              "teamA": "t12",
+              "teamB": "t03",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m46",
+              "date": "2026-02-01T18:15:00Z",
+              "teamA": "t09",
+              "teamB": "t07",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m47",
+              "date": "2026-02-01T19:00:00Z",
+              "teamA": "t04",
+              "teamB": "t01",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m48",
+              "date": "2026-02-01T19:45:00Z",
+              "teamA": "t06",
+              "teamB": "t02",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m49",
+              "date": "2026-02-02T16:00:00Z",
+              "teamA": "t05",
+              "teamB": "t01",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m50",
+              "date": "2026-02-02T16:45:00Z",
+              "teamA": "t09",
+              "teamB": "t03",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m51",
+              "date": "2026-02-02T17:30:00Z",
+              "teamA": "t08",
+              "teamB": "t06",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m52",
+              "date": "2026-02-02T18:15:00Z",
+              "teamA": "t12",
+              "teamB": "t02",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m53",
+              "date": "2026-02-02T19:00:00Z",
+              "teamA": "t11",
+              "teamB": "t07",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m54",
+              "date": "2026-02-02T19:45:00Z",
+              "teamA": "t10",
+              "teamB": "t04",
+              "phase": "Week 3",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m55",
+              "date": "2026-02-07T16:00:00Z",
+              "teamA": "t11",
+              "teamB": "t01",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m56",
+              "date": "2026-02-07T16:45:00Z",
+              "teamA": "t10",
+              "teamB": "t05",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m57",
+              "date": "2026-02-07T17:30:00Z",
+              "teamA": "t09",
+              "teamB": "t06",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m58",
+              "date": "2026-02-07T18:15:00Z",
+              "teamA": "t08",
+              "teamB": "t02",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m59",
+              "date": "2026-02-07T19:00:00Z",
+              "teamA": "t12",
+              "teamB": "t07",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m60",
+              "date": "2026-02-07T19:45:00Z",
+              "teamA": "t04",
+              "teamB": "t03",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m61",
+              "date": "2026-02-08T16:00:00Z",
+              "teamA": "t12",
+              "teamB": "t06",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m62",
+              "date": "2026-02-08T16:45:00Z",
+              "teamA": "t05",
+              "teamB": "t03",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m63",
+              "date": "2026-02-08T17:30:00Z",
+              "teamA": "t09",
+              "teamB": "t10",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m64",
+              "date": "2026-02-08T18:15:00Z",
+              "teamA": "t08",
+              "teamB": "t07",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m65",
+              "date": "2026-02-08T19:00:00Z",
+              "teamA": "t11",
+              "teamB": "t04",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
+              "score": { "teamA":0,"teamB":0 }
+            },
+            {
+              "id": "m66",
+              "date": "2026-02-08T19:45:00Z",
+              "teamA": "t01",
+              "teamB": "t02",
+              "phase": "Week 4",
+              "stage": "Regular Season",
+              "comments": "",
               "score": { "teamA":0,"teamB":0 }
             }
           ]

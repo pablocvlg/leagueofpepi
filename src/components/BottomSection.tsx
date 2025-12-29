@@ -3,8 +3,8 @@ import styled from "styled-components";
 const Container = styled.footer`
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   width: 100%;
-  background-color: #222;
-  color: #fff;
+  background-color: #18181b;
+  color: #acb3beff;
   padding: 0.8rem 0rem;
   font-size: 0.9rem;
   display: flex;

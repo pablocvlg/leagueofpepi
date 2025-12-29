@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { NavLink as RouterNavLink } from "react-router-dom";
 
 const Nav = styled.nav`
-  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;display: flex;
   justify-content: flex-start;
   padding: 0 2rem;
   background-color: #1a1a1aff;

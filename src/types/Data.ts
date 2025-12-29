@@ -23,9 +23,10 @@ export interface Match {
   id: string;
   date: string;
   stage: string;
-  status: string;
+  phase: string;
   teamA: string;
   teamB: string;
+  comments: string;
   score: MatchScore;
 }
 
